@@ -4,17 +4,18 @@ J-Quants APIを使って日本株ポートフォリオを分析するツール
 # フォルダ構成
 
 JQUANTS_PORTFOLIO
-│  .gitignore
-│  docker-compose.yaml
-│  Dockerfile
-│  README.md
-│  requirements.txt
-│
-├─config
-│       user-api.toml
-│
-└─src
-        stock.py
+ |  # 開発環境用
+ ├─  .gitignore
+ ├─ docker-compose.yaml
+ ├─ Dockerfile
+ ├─ README.md    
+ ├─ requirements.txt
+ │
+ ├─ config
+ │    user-api.toml    # APIキー
+ │
+ └─ src
+      stock.py    # 実行用 
 
 git clone時は「config」フォルダは存在しない。
 
