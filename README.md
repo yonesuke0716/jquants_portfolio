@@ -3,6 +3,7 @@ J-Quants APIを使って日本株ポートフォリオを分析するツール
 
 # フォルダ構成
 
+<pre>
 JQUANTS_PORTFOLIO
  |  # 開発環境用
  ├─  .gitignore
@@ -16,6 +17,7 @@ JQUANTS_PORTFOLIO
  │
  └─ src
       stock.py    # 実行用 
+</pre>
 
 git clone時は「config」フォルダは存在しない。
 
