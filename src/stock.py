@@ -41,6 +41,6 @@ result = req.json()
 
 infos = result["info"]
 
-company_names = [d.get("CompanyName") for d in infos]
-# 出力
-print(len(company_names))
+print(infos[0])
+
+# company_names = [d.get("CompanyName") for d in infos]

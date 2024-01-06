@@ -1,6 +1,10 @@
 # jquants_portfolio
 J-Quants APIを使って日本株ポートフォリオを分析するツール
 
+詳細は以下の著者のブログ記事を参照ください。
+
+[日本株のポートフォリオを自分で分析できるツールをPythonで作りたい](https://tech-useit-wealth.com/%e3%80%90j-quants-api%e3%80%91%e6%97%a5%e6%9c%ac%e6%a0%aa%e3%81%ae%e3%83%9d%e3%83%bc%e3%83%88%e3%83%95%e3%82%a9%e3%83%aa%e3%82%aa%e3%82%92%e8%87%aa%e5%88%86%e3%81%a7%e5%88%86%e6%9e%90%e3%81%a7)
+
 # フォルダ構成
 
 <pre>
@@ -66,5 +70,3 @@ docker compose exec python3 bash
 ```
 python src/stock.py
 ```
-
-現状は上場株式総数が表示される。
