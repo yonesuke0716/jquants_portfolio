@@ -1,8 +1,9 @@
 version: '3'
 services:
-  python3:
-    restart: always
-    build: .
+  stock_portfolio:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     container_name: 'stock_portfolio'
     working_dir: '/root/'
     tty: true

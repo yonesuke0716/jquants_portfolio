@@ -56,13 +56,21 @@ pip install -r requirements.txt
 
 ### Dockerの場合
 
-- docer imageの立ち上げ
+- docerイメージのビルド(一度ビルドしたら以降は以下の「dockerコンテナの立ち上げ」からでOK)
 ```
-docker compose up -d --build
+docker compose build stock_portfolio
 ```
-- docker containerの起動
+- dockerコンテナの立ち上げ
 ```
-docker compose exec python3 bash
+docker compose up -d stock_portfolio
+```
+- dockerコンテナの起動(コンテナから出る場合はコマンドで「exit」)
+```
+docker compose exec -it stock_portfolio bash
+```
+- dockerコンテナの停止
+```
+docker compose down
 ```
 
 ## 実行方法
